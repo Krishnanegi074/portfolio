@@ -25,10 +25,12 @@ export function Hero() {
           View work ↓
         </a>
         <a
-          href={`mailto:${profile.email}`}
+          href={profile.linkedin}
+          target="_blank"
+          rel="noreferrer"
           className="inline-flex items-center gap-2 rounded border-[1.5px] border-ink/25 px-7 py-3 text-sm font-medium text-ink transition-colors hover:border-ink"
         >
-          Get in touch
+          Get in touch ↗
         </a>
       </div>
 

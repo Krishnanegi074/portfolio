@@ -1,4 +1,5 @@
 import { profile } from "@/lib/portfolio-data"
+import { ResumeButton } from "@/components/resume-button"
 
 export function Contact() {
   return (
@@ -15,9 +16,12 @@ export function Contact() {
           Delhi-NCR. Open to relocation.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
+          <ResumeButton className="inline-flex items-center gap-2 rounded border-[1.5px] border-ink bg-ink px-7 py-3 text-sm font-medium text-paper transition-colors hover:border-accent-dark hover:bg-accent-dark">
+            Let&apos;s talk
+          </ResumeButton>
           <a
             href={`mailto:${profile.email}`}
-            className="inline-flex items-center gap-2 rounded border-[1.5px] border-ink bg-ink px-7 py-3 text-sm font-medium text-paper transition-colors hover:border-accent-dark hover:bg-accent-dark"
+            className="inline-flex items-center gap-2 rounded border-[1.5px] border-ink/25 px-7 py-3 text-sm font-medium text-ink transition-colors hover:border-ink"
           >
             Email me
           </a>

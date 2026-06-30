@@ -3,7 +3,7 @@ export const profile = {
   role: "Senior Product Designer",
   email: "krishnanegi074@gmail.com",
   phone: "+91 99105 97223",
-  linkedin: "https://www.linkedin.com/in/krishnanegi-20485315b",
+  linkedin: "https://www.linkedin.com/in/krishna-negi-20485315b/",
   behance: "https://www.behance.net/Krishnaneg6865",
   location: "Noida, India",
 }
@@ -35,7 +35,7 @@ export const projects: Project[] = [
       { value: "+18%", label: "Guest satisfaction" },
     ],
     dark: true,
-    href: "https://www.behance.net/Krishnaneg6865",
+    href: "https://www.heyalpha.io/",
   },
   {
     tag: "Enterprise UX · HR App",
@@ -46,7 +46,7 @@ export const projects: Project[] = [
       { value: "−35%", label: "Task time" },
       { value: "−22%", label: "Error rate" },
     ],
-    href: "https://www.behance.net/Krishnaneg6865",
+    href: "https://www.figma.com/design/xO9HMAQmmyVi50oXO5eAfw/JLL-App?node-id=0-1&t=nUJOcAneTxdg5NIJ-1",
   },
   {
     tag: "Learning Portal · B2B",
@@ -71,16 +71,30 @@ export const projects: Project[] = [
     dark: true,
     href: "https://www.behance.net/Krishnaneg6865",
   },
+  {
+    tag: "Insurance · Enterprise SaaS",
+    title: "SBI General Insurance",
+    description:
+      "Led UX vision and strategy for a large-scale insurance SaaS product at Mantra Labs. Mapped complex multiscreen flows and built reusable component architectures aligned with business and engineering roadmaps.",
+    metrics: [
+      { value: "Insurance", label: "Domain" },
+      { value: "Enterprise", label: "SaaS" },
+    ],
+    href: "https://xd.adobe.com/view/d53d10bf-6c7a-4c44-b7e6-28ef09f1c4b4-806e/",
+  },
+  {
+    tag: "Dashboard · Price Automation",
+    title: "Pace Industries",
+    description:
+      "Designed a price automation dashboard with data-dense layouts, clear information hierarchy, and streamlined workflows for enterprise operations teams.",
+    metrics: [
+      { value: "Dashboard", label: "Design" },
+      { value: "Automation", label: "Domain" },
+    ],
+    dark: true,
+    href: "https://www.behance.net/gallery/231975103/Dashboard-Design-for-Price-Automation",
+  },
 ]
-
-export const featuredProject = {
-  tag: "SaaS · Insurance · Healthcare",
-  title: "SBI General Insurance & Pace Industries (Manipal Hospital)",
-  description:
-    "Led UX vision and strategy across two large-scale enterprise SaaS products at Mantra Labs. Mapped complex multiscreen flows, built reusable component architectures, and aligned design with business and engineering roadmaps.",
-  metric: { value: "Enterprise", label: "SaaS" },
-  href: "https://www.behance.net/Krishnaneg6865",
-}
 
 export const skillGroups = [
   {

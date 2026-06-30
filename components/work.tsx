@@ -1,4 +1,4 @@
-import { projects, featuredProject, type Project } from "@/lib/portfolio-data"
+import { projects, type Project } from "@/lib/portfolio-data"
 
 function Arrow({ className = "" }: { className?: string }) {
   return (
@@ -81,32 +81,6 @@ export function Work() {
           <WorkCard key={project.title} project={project} />
         ))}
       </div>
-
-      <a
-        href={featuredProject.href}
-        target="_blank"
-        rel="noreferrer"
-        className="group mt-[1.5px] grid grid-cols-1 items-center gap-8 border border-border bg-cream p-11 transition-colors hover:bg-cream-hover md:grid-cols-[1fr_auto]"
-      >
-        <div>
-          <div className="mb-2.5 text-[11px] font-medium uppercase tracking-widest text-accent">
-            {featuredProject.tag}
-          </div>
-          <h3 className="mb-3 font-display text-[1.55rem] font-normal leading-tight tracking-tight">
-            {featuredProject.title}
-          </h3>
-          <p className="text-sm leading-relaxed text-muted">{featuredProject.description}</p>
-        </div>
-        <div className="flex flex-col items-start gap-5 md:items-end md:text-right">
-          <div className="text-xs text-muted">
-            <strong className="mb-px block text-[15px] font-medium text-ink">
-              {featuredProject.metric.value}
-            </strong>
-            {featuredProject.metric.label}
-          </div>
-          <Arrow className="border-ink/15 text-ink group-hover:border-accent group-hover:bg-accent group-hover:text-paper" />
-        </div>
-      </a>
     </section>
   )
 }
