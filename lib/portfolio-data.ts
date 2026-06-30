@@ -49,29 +49,6 @@ export const projects: Project[] = [
     href: "https://www.figma.com/design/xO9HMAQmmyVi50oXO5eAfw/JLL-App?node-id=0-1&t=nUJOcAneTxdg5NIJ-1",
   },
   {
-    tag: "Learning Portal · B2B",
-    title: "Suntory Learning Portal",
-    description:
-      "Designed a learning management platform for one of the world's largest beverage companies. Improved content discoverability and reduced publishing effort across teams.",
-    metrics: [
-      { value: "+40%", label: "Discoverability" },
-      { value: "−25%", label: "Publishing effort" },
-    ],
-    href: "https://www.behance.net/Krishnaneg6865",
-  },
-  {
-    tag: "Fintech · Mobile UX",
-    title: "NYE App — RapiPay Fintech",
-    description:
-      "Led UX and visual design for a fintech product at Mantra Labs. Designed complex transactional flows with a focus on trust, clarity, and mobile-first accessibility.",
-    metrics: [
-      { value: "Fintech", label: "Domain" },
-      { value: "Mobile", label: "Platform" },
-    ],
-    dark: true,
-    href: "https://www.behance.net/Krishnaneg6865",
-  },
-  {
     tag: "Insurance · Enterprise SaaS",
     title: "SBI General Insurance",
     description:
