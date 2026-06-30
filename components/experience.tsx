@@ -1,4 +1,4 @@
-import { experiences } from "@/lib/portfolio-data"
+import { experiences, education } from "@/lib/portfolio-data"
 
 export function Experience() {
   return (
@@ -18,12 +18,10 @@ export function Experience() {
         </div>
 
         <div>
-          {experiences.map((exp, i) => (
+          {experiences.map((exp) => (
             <div
               key={exp.role + exp.company}
-              className={`${
-                i === experiences.length - 1 ? "" : "mb-12 border-b border-border pb-12"
-              }`}
+              className="mb-12 border-b border-border pb-12"
             >
               <div className="mb-3 flex flex-col justify-between gap-1 sm:flex-row sm:items-start sm:gap-4">
                 <div>
@@ -50,6 +48,16 @@ export function Experience() {
               </ul>
             </div>
           ))}
+
+          <div>
+            <div className="mb-3 text-[11px] font-medium uppercase tracking-[2.5px] text-accent">
+              Education
+            </div>
+            <div className="font-display text-[1.3rem] font-normal tracking-tight">
+              {education.degree}
+            </div>
+            <div className="mt-1 text-sm text-muted">{education.school}</div>
+          </div>
         </div>
       </div>
     </section>

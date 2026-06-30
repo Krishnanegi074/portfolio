@@ -22,13 +22,15 @@ export function About() {
               <strong className="font-medium text-paper">scalable design systems, 0→1 product work,</strong>{" "}
               and turning complex business requirements into interfaces people actually understand and
               use. I&apos;ve worked with global brands including{" "}
-              <strong className="font-medium text-paper">Suntory, Diageo, JLL, SBI,</strong> and{" "}
-              <strong className="font-medium text-paper">Manipal Hospital.</strong>
+              <strong className="font-medium text-paper">Suntory, Diageo, JLL, SBI General Insurance,</strong>{" "}
+              and <strong className="font-medium text-paper">Manipal Hospital.</strong>
             </p>
             <p>
-              Currently based in {profile.location}. Open to{" "}
-              <strong className="font-medium text-paper">Senior and Staff Designer roles</strong> — remote
-              or in-office.
+              Currently freelancing — most recently designing end-to-end website and e-commerce UX for{" "}
+              <strong className="font-medium text-paper">Kartaar Valves</strong> and continuing remote
+              collaboration with Suntory. Based in {profile.location} and open to{" "}
+              <strong className="font-medium text-paper">Senior, Lead, and Staff Designer roles</strong> —
+              remote or in-office.
             </p>
           </div>
           <div className="mt-10">
